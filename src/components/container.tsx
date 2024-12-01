@@ -6,7 +6,7 @@ interface ContainerProps {
 
 export default function Container({ children }: ContainerProps) {
   return (
-    <div className="max-w-[1300px] mx-auto bg-white min-h-screen flex flex-col">
+    <div className="max-w-[1300px] mx-auto bg-white min-h-screen flex flex-col border-l border-r">
       {children}
     </div>
   );
